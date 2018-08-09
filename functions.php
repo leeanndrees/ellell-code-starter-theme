@@ -1,6 +1,7 @@
 <?php
 
-// Enqueuing Styles
+/********** Enqueuing Styles **************************************************/
+
 function ellelltheme_styles() {
   // Load stylesheets:
   wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
@@ -10,13 +11,14 @@ function ellelltheme_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'ellelltheme_styles' );
 
-// Registering menus
+/********** Registering menus **************************************************/
+
 function ellelltheme_menus() {
   register_nav_menu( 'main-menu',__( 'Main Menu' ) );
 }
 add_action( 'init', 'ellelltheme_menus' );
 
-// Registering widget areas
+/********** Registering widget areas **************************************************/
 
 // function ellelltheme_custom_sidebars() {
 // 	$args = array(
@@ -50,7 +52,8 @@ add_action( 'init', 'ellelltheme_menus' );
 // add_action( 'widgets_init', 'ellelltheme_custom_sidebars' );
 
 
-// Custom Excerpt
+/********** Custom Excerpt **************************************************/
+
 // function ellelltheme_excerpt($more) {
 //   return ' &hellip; <a href="'.get_permalink().'">Continue Reading &rarr;</a>';
 // }
