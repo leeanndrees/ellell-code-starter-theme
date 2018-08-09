@@ -1,0 +1,89 @@
+/*
+Theme Name: Starter Theme
+Description: A bare-bones custom theme for breaking, fixing, & learning.
+Author: ellell & co.
+Author URI: http://ellell.co
+Version: 1.0
+*/
+
+
+
+/*********** Global Styles ***********/
+
+.site-header /* Let's give the header a background-color or background-image */ {
+   background-color: ;
+}
+
+.site-footer  /* Let's give the footer a background-color or background-image */ {
+   background-color: ;
+}
+
+
+/* Choose a font, color and size for default text */
+body {
+
+}
+
+/* Choose a Font for headings*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif;
+}
+
+h1 /* Does an H1 have a unique color? Add it here */ {
+
+}
+
+h2 /* Does an H2 have a unique color? Add it here */ {
+
+}
+
+h3 /* Does an H1 have a unique color? Add it here */ {
+
+}
+
+h4 /* Does an H1 have a unique color? Add it here */ {
+
+}
+
+
+/*********** Main Navigation Menu at Top ***********/
+
+/* Give the main navigation menu some color - text color and background color */
+.main-menu ul li a{
+   background-color: ;
+}
+
+.main-menu ul li a:hover {
+   background-color: ;
+}
+
+/*********** Content Styles - headings, pargraphs, text, images ************/
+
+/* Basic link style */
+a {
+
+}
+
+/* How should a link that is "hovered" look? */
+a:hover, a:focus, a:active {
+
+}
+
+/* How should a button look? */
+button, html input[type=button], input[type=reset], input[type=submit] {
+
+}
+
+/* Now how should a "hovered" button look? */
+button:hover, html input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover,
+button:active, html input[type=button]:active, input[type=reset]:active, input[type=submit]:active,
+button:focus, html input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
+
+}
+
+
+/*********** Other Styles - Go Nuts! ***********/
+
+
+

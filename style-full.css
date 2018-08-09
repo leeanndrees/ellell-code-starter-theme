@@ -1,0 +1,157 @@
+/*
+Theme Name: Starter Theme
+Description: A bare-bones custom theme for breaking, fixing, & learning.
+Author: ellell & co.
+Author URI: http://ellell.co
+Version: 1.2
+*/
+
+/*
+Our Color Palette:
+Gold: #DBA23F
+Brown: #432210
+Orange: #DE8633
+Teal: #378C83
+Light Green: #6BC5AF
+*/
+
+/*
+Our Fonts:
+font-family: 'Raleway', sans-serif;
+font-family: 'Taviraj', serif;
+*/
+
+.site-header {
+  background-image: url("img/upfeathers.png");
+}
+
+.site-footer {
+  background-color: #378C83;
+}
+
+.site-footer a {
+  color:#fff;
+}
+
+/* Typography */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #432210;
+  font-size: 1.8em;
+}
+
+p {
+  line-height: 2.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Taviraj', serif;
+  margin-top:30px;
+}
+
+h1, h1 a, h1 a:hover, h1 a:active, h1 a:focus {
+  font-size: 2em;
+  color: #432210;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+h2, h2 a {
+  font-size: 1.8em;
+  color: #DBA23F;
+  font-weight: normal;
+}
+
+h3, h3 a {
+  font-size: 1.6em;
+  color: #378C83;
+  font-weight: normal;
+}
+
+h4, h5, h6 {
+  font-size: 1.3em;
+}
+
+h4, h4 a {
+  color: #432210;
+  font-weight: normal;
+}
+
+h5, h5 a {
+  color: #378C83;
+  font-weight: normal;
+}
+
+h6, h6 a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #432210;
+  font-weight: normal;
+}
+
+/* Background */
+body {
+  background-attachment: fixed;
+}
+
+/* Links + Buttons */
+a {
+  color: #378C83;
+  font-weight: bold;
+}
+
+a:hover, a:focus, a:active {
+  color: #6BC5AF;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  color: #fff;
+  background-color: #378C83;
+  border: 0;
+}
+
+button:hover, html input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover,
+button:active, html input[type=button]:active, input[type=reset]:active, input[type=submit]:active,
+button:focus, html input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
+  background-color: #6BC5AF;
+}
+
+/* Sidebar */
+.widget ul { 
+margin: 10px 0;
+padding: 0;}
+.widget li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.widgettitle {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #432210;
+}
+
+/* Main Nav */
+.main-menu ul {
+  padding-left: 0;
+}
+
+.main-menu ul li a{
+  color:#fff;
+  list-style: none;
+  display: inline-block;
+  padding: .3em 1em;
+  margin: .5em;
+  background-color: #378C83;
+}
+
+.main-menu ul li a:hover {
+  background-color: #6BC5AF;
+  text-decoration:none;
+}
+
+.main-menu ul li a {
+  color:#fff;
+}
+
+/* Content */
