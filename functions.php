@@ -17,21 +17,38 @@ function ellelltheme_menus() {
 add_action( 'init', 'ellelltheme_menus' );
 
 // Registering widget areas
-function ellelltheme_custom_sidebars() {
-	$args = array(
-		'id'            => 'sidebar-right',
-		'name'          => __( 'Right Sidebar' ),
-		'description'   => __( 'Appears on the right-hand side of pages & posts' ),
-	);
-	register_sidebar( $args );
-  $args = array(
-		'id'            => 'footer',
-		'name'          => __( 'Footer' ),
-		'description'   => __( 'Footer widget area' ),
-	);
-	register_sidebar( $args );
-}
-add_action( 'widgets_init', 'ellelltheme_custom_sidebars' );
+
+// function ellelltheme_custom_sidebars() {
+// 	$args = array(
+// 		'id'            => 'homepage',
+// 		'name'          => __( 'Homepage Widget Area' ),
+// 		'description'   => __( 'Appears beneath blog posts on homepage' ),
+// 	);
+// 	register_sidebar( $args );
+//
+//   $args = array(
+// 		'id'            => 'footer1',
+// 		'name'          => __( 'Footer 1' ),
+// 		'description'   => __( 'Footer widget area 1 – appears in left column' ),
+// 	);
+// 	register_sidebar( $args );
+//
+//   $args = array(
+// 		'id'            => 'footer2',
+// 		'name'          => __( 'Footer 2' ),
+// 		'description'   => __( 'Footer widget area 2 – appears in middle column' ),
+// 	);
+// 	register_sidebar( $args );
+//
+//   $args = array(
+// 		'id'            => 'footer3',
+// 		'name'          => __( 'Footer 3' ),
+// 		'description'   => __( 'Footer widget area 3 – appears in right column' ),
+// 	);
+// 	register_sidebar( $args );
+// }
+// add_action( 'widgets_init', 'ellelltheme_custom_sidebars' );
+
 
 // Custom Excerpt
 // function ellelltheme_excerpt($more) {
