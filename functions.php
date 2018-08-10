@@ -11,6 +11,16 @@ function ellelltheme_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'ellelltheme_styles' );
 
+/********** Featured Images ****************************************************/
+
+// Add theme support for Featured Images
+add_theme_support('post-thumbnails', array(
+'post',
+'page',
+'custom-post-type-name',
+));
+
+
 /********** Registering menus **************************************************/
 
 function ellelltheme_menus() {

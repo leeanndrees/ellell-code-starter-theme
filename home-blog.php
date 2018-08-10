@@ -4,7 +4,7 @@
       // WP_Query arguments
       $args = array(
         'post_type'              => array( 'post' ),
-        'posts_per_page'         => '2',
+        'posts_per_page'         => '3',
       );
 
       // The Query

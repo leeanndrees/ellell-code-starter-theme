@@ -21,17 +21,100 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Taviraj', serif;
 */
 
-.site-header {
-  background-image: url("img/upfeathers.png");
+/*
+Theme Name: Starter Theme
+Description: A bare-bones custom theme for breaking, fixing, & learning.
+Author: ellell & co.
+Author URI: http://ellell.co
+Version: 1.0
+*/
+
+/*********** Load Fonts **************/
+
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+
+/*********** Global Styles ***********/
+
+.site-header /* Let's give the header a background-color or background-image */ {
+   background-color: #0b5250;
+   text-align:center;
 }
 
-.site-footer {
-  background-color: #378C83;
+.site-footer  /* Let's give the footer a background-color or background-image */ {
+   background-color: #0b5250;
 }
 
-.site-footer a {
-  color:#fff;
+blockquote {
+    background-color: #fbf1dc;
 }
+
+
+
+/* Choose a font, color and size for default text */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Choose a Font for headings*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Belleza', sans-serif;
+}
+
+h1 /* Does an H1 have a unique color? Add it here */ {
+
+}
+
+h2 /* Does an H2 have a unique color? Add it here */ {
+
+}
+
+h3 /* Does an H1 have a unique color? Add it here */ {
+
+}
+
+h4 /* Does an H1 have a unique color? Add it here */ {
+
+}
+
+/*********** Main Navigation Menu at Top ***********/
+
+/* Give the main navigation menu some color - text color and background color */
+.main-menu ul li a{
+   text-transform: uppercase;
+}
+
+.main-menu ul li a:hover {
+}
+
+/*********** Content Styles - headings, pargraphs, text, images ************/
+
+/* Basic link style */
+a {
+color:#bd691d;
+}
+
+/* How should a link that is "hovered" look? */
+a:hover, a:focus, a:active {
+color:#9e5a1c;
+text-decoration:none;
+}
+
+/* How should a button look? */
+button, html input[type=button], input[type=reset], input[type=submit] {
+background-color:#DBA23F;
+}
+
+/* Now how should a "hovered" button look? */
+button:hover, html input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover,
+button:active, html input[type=button]:active, input[type=reset]:active, input[type=submit]:active,
+button:focus, html input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
+background-color: #549c8b;
+}
+
+
+/*********** Other Styles - Go Nuts! ***********/
+
 
 /* Typography */
 body {
@@ -96,7 +179,7 @@ body {
 
 /* Links + Buttons */
 a {
-  color: #378C83;
+  color:#bd691d;
   font-weight: bold;
 }
 
@@ -106,14 +189,14 @@ a:hover, a:focus, a:active {
 
 button, html input[type=button], input[type=reset], input[type=submit] {
   color: #fff;
-  background-color: #378C83;
+  background-color: ;
   border: 0;
 }
 
 button:hover, html input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover,
 button:active, html input[type=button]:active, input[type=reset]:active, input[type=submit]:active,
 button:focus, html input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
-  background-color: #6BC5AF;
+  background-color: ;
 }
 
 /* Sidebar */

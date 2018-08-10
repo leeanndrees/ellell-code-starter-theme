@@ -24,7 +24,12 @@
 
       <div class="col">
 
-        <h1><a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+ <h1><a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></h1> 
+
+ <!-- 
+ <h1><a href="<?php bloginfo( 'url' ); ?>"><img src="/student1/wp-content/uploads/2018/08/fisher-bldg-logo.png" alt="fisher building logo"/></a></h1>
+ -->
+
 
         <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'main-menu' ) ); ?>
 
