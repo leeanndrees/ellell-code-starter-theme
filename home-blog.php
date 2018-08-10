@@ -1,4 +1,5 @@
 <section class="home-blog">
+
     <?php
       // WP_Query arguments
       $args = array(
@@ -11,18 +12,29 @@
 
       // The Loop
       if ( $query->have_posts() ) { ?>
+
         <div class="row">
 
-      <?php  while ( $query->have_posts() ) {
-          $query->the_post(); ?>
-        <div class="col-sm">
-        <?php the_title( '<h2>' , '</h2>' ); ?>
-        <?php the_content(); ?>
-        </div>
+          <?php  while ( $query->have_posts() ) {
+
+            $query->the_post(); ?>
+
+            <div class="col-sm">
+
+              <?php the_title( '<h2>' , '</h2>' ); ?>
+
+
+
+            </div>
+
       <?php	} ?>
+
       </div>
+
       <?php } else { ?>
+
         <p>Sorry, no posts here!</p>
+
       <?php }
 
       // Restore original Post Data
