@@ -18,6 +18,14 @@ function ellelltheme_menus() {
 }
 add_action( 'init', 'ellelltheme_menus' );
 
+/********** Custom Excerpt **************************************************/
+
+// function ellelltheme_excerpt($more) {
+//   return ' &hellip; <a href="'.get_permalink().'">Continue Reading &rarr;</a>';
+// }
+// add_filter('excerpt_more', 'ellelltheme_excerpt');
+
+
 /********** Registering widget areas **************************************************/
 
 // function ellelltheme_custom_sidebars() {
@@ -50,13 +58,5 @@ add_action( 'init', 'ellelltheme_menus' );
 // 	register_sidebar( $args );
 // }
 // add_action( 'widgets_init', 'ellelltheme_custom_sidebars' );
-
-
-/********** Custom Excerpt **************************************************/
-
-// function ellelltheme_excerpt($more) {
-//   return ' &hellip; <a href="'.get_permalink().'">Continue Reading &rarr;</a>';
-// }
-// add_filter('excerpt_more', 'ellelltheme_excerpt');
 
 ?>
