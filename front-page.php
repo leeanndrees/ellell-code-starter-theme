@@ -7,6 +7,7 @@
   <main>
 
     <div class="row">
+    <div class="col">
 
     <?php while( have_posts() ) : the_post(); ?>
 
@@ -23,6 +24,7 @@
 
     <?php wp_reset_postdata(); ?>
 
+    </div>
     </div>
 
   </main>

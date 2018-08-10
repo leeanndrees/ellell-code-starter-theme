@@ -22,7 +22,7 @@
 
     <div class="row">
 
-      <div class="col-xs-12">
+      <div class="col">
 
         <h1><a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 
@@ -33,5 +33,5 @@
       </div>
 
   </div>
-  
+
 </header>

@@ -10,17 +10,20 @@
       $query = new WP_Query( $args );
 
       // The Loop
-      if ( $query->have_posts() ) {
-        while ( $query->have_posts() ) {
+      if ( $query->have_posts() ) { ?>
+        <div class="row">
+
+      <?php  while ( $query->have_posts() ) {
           $query->the_post(); ?>
-
-        <?php the_title('<h2>' , '</h2>');
-
-          the_content(); ?>
-      <?php	}
-      } else {
-        // no posts found
-      }
+        <div class="col-sm">
+        <?php the_title( '<h2>' , '</h2>' ); ?>
+        <?php the_content(); ?>
+        </div>
+      <?php	} ?>
+      </div>
+      <?php } else { ?>
+        <p>Sorry, no posts here!</p>
+      <?php }
 
       // Restore original Post Data
       wp_reset_postdata();
