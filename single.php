@@ -25,7 +25,7 @@
 
   <aside class="sidebar-right col-sm-4">
 
-    <?php dynamic_sidebar('sidebar-right'); ?>
+    <?php dynamic_sidebar('sidebar'); ?>
 
   </aside>
 
