@@ -10,9 +10,11 @@
 
     <div class="row">
 
-      <div class="col-sm-6 col-sm-offset-3 text-center">
+      <div class="col">
 
-        <?php dynamic_sidebar( 'footer' ); ?>
+      </div>
+
+      <div class="col">
 
       </div>
 
