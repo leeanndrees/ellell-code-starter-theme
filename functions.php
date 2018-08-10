@@ -4,7 +4,7 @@
 
 function ellelltheme_styles() {
   // Load stylesheets:
-  wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
+  wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
   wp_enqueue_style( 'defaults', get_template_directory_uri()."/defaults.css" );
   wp_enqueue_style( 'main', get_stylesheet_uri() );
   // wp_enqueue_style("style-full", get_template_directory_uri()."/style-full.css"); //
@@ -29,7 +29,7 @@ add_filter('excerpt_more', 'ellelltheme_excerpt');
 /********** Registering widget areas **************************************************/
 
 function ellelltheme_custom_sidebars() {
-  
+
   $args = array(
 		'id'            => 'footer1',
 		'name'          => __( 'Footer 1' ),
